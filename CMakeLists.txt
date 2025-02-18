@@ -10,4 +10,4 @@ add_compile_options(
 project(site-repotest-ru)
 add_executable(${CMAKE_PROJECT_NAME} main.cpp)
 target_compile_features(${CMAKE_PROJECT_NAME} PUBLIC cxx_std_20)
-target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/../third_party/HtmlBuilder/include)
+target_include_directories(${CMAKE_PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/third_party/HtmlBuilder/include)
